@@ -2,7 +2,7 @@
 # NOTE: DO *NOT* EDIT THIS FILE.  IT IS GENERATED.
 # PLEASE UPDATE Dockerfile.txt INSTEAD OF THIS FILE
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-FROM sanit7220/node-scaler-chrome:latest
+FROM sanit7220/chrome-scaler-node
 LABEL authors=SeleniumHQ
 
 USER root
