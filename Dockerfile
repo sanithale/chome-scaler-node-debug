@@ -49,6 +49,6 @@ RUN mkdir -p ~/.vnc \
 #==============================
 # Scripts to run Selenium Node
 #==============================
-COPY entry_point.sh /opt/bin/entry_point.sh
+ADD entry_point.sh /opt/bin/entry_point.sh
 
 EXPOSE 5900
